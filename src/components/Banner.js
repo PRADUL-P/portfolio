@@ -61,12 +61,12 @@ const HeroPage = () => {
                   className="flex max-w-max gap-x-6 items-center m-5 mb-12 mx-auto  text-center"
                 >
                   <a
-                    href={require("../resume.pdf")}
+                    href={require("../pradul_cv.pdf")}
                     className="text-gradient btn-link lg:item-center text-center uppercase"
                     onClick={(e) => {
                       e.preventDefault();
                       const link = document.createElement("a");
-                      link.download = "pradul_cv.pdf";
+                      link.download = "Pradul_cv.pdf";
                       link.href = e.target.href;
                       document.body.appendChild(link);
                       link.click();
