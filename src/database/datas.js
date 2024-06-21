@@ -42,12 +42,16 @@ import  len  from "../assets/projects/len.png";
 
 const skills = [
   { name: 'AutoCAD', level: 90, color: 'bg-blue-500' },
-  { name: 'Autodesk Forma', level: 75, color: 'bg-blue-500' },
-  { name: 'Etabs', level: 80, color: 'bg-green-500' },
-  { name: 'Revit', level: 80, color: 'bg-yellow-500' },
-  { name: 'Structural Analysis', level: 90, color: 'bg-red-500' },
+  { name: 'Autodesk Forma', level: 75, color: 'bg-blue-100' },
+  { name: 'Etabs', level: 70, color: 'bg-green-500' },
+  { name: 'Revit', level: 70, color: 'bg-yellow-500' },
+  { name: 'Twinmotion', level: 85, color: 'bg-teal-500' },
+  { name: 'Enscape', level: 70, color: '#00a89d' },
+  { name: 'Microsoft Office', level: 85, color: 'bg-red-500' },
+  { name: 'STAAD', level: 70, color: '#fd8c00' },
   { name: 'Project Management', level: 80, color: 'bg-purple-500' },
-  { name: 'twinmotion', level: 85, color: 'bg-teal-500' },
+  { name: 'Web Development', level: 70, color: '#61dafb' },
+  
 ];
 
 const experiences = [
@@ -138,6 +142,28 @@ const education = [
 ];
 const Fday = [
   {
+    title: "Development of Parking Policy Framework for Kerala",
+    position: "KSCSTE National Transportation Planning and Research Centre (NATPAC)",
+    icon:civilenggImage,
+    //  fee: "fui",
+    iconBg: "#383E56",
+    years: "Feb 2024",
+    points: [
+      // {
+      //   header: "",
+      //   paragraph: "",
+      //   date: "",
+      // },
+      {
+        header: "",
+        paragraph: "Conducted surveys for the project Development of Parking Policy Framework for Kerala. Responsibilities included: User Opinion Survey: Designed questionnaires, collected data, and analyzed feedback from local residents and commuters to understand their perspectives and preferences regarding parking facilities in Thalassery. Land Use Survey: Gathered data regarding land ownership and other relevant details from landowners to comprehensively analyze land use patterns, identifying potential sites for parking infrastructure development and evaluating existing land use regulations. Parking In and Out Survey: Implemented on-site data collection methods to observe parking behavior, including vehicle entry and exit patterns, duration of parking, and utilization rates, providing valuable insights into the current parking situation.",
+        date: "",
+       },
+       
+    ],
+   
+    
+  },{
     title: "VBLAZE",
     position: "project head",
     icon:civilenggImage,
@@ -162,6 +188,50 @@ const Fday = [
     ],
   },
   {
+    title: "Construction of Regulator Cum Bridge across Ummenchira River at Chekkupalam",
+    position: "Kerala Irrigation Infrastructure Development Corporation Limited",
+    icon:civilenggImage,
+    //  fee: "fui",
+    iconBg: "#383E56",
+    years: "MAY 2023 - 5 DAYS",
+    
+   
+    points: [
+      // {
+      //   header: "",
+      //   paragraph: "",
+      //   date: "",
+      // },
+      {
+        header: "",
+        paragraph: "During my internship at KIIDC, I gained valuable hands-on experience in civil engineering and project management. I actively participated in various projects, applying my academic knowledge to real-world scenarios and developing practical skills in construction techniques, quality control, and project coordination. I collaborated with a diverse team of professionals, strengthening my communication and teamwork abilities. Through overcoming challenges and navigating unexpected obstacles, I honed my problem-solving and adaptability skills. This internship enhanced my understanding of professional ethics, safety protocols, and industry standards. Overall, my internship at KIIDC has been a rewarding experience that has equipped me with the necessary skills and knowledge to thrive as a civil engineer.",
+        date: "",
+       },],
+      },
+  
+      {
+        title: "Xposure-23 Training Program",
+        position: "S&R Consultants",
+        icon:civilenggImage,
+        //  fee: "fui",
+        iconBg: "#383E56",
+        years: "OCT 2022 - NOV 2023",
+        
+       
+        points: [
+          // {
+          //   header: "",
+          //   paragraph: "",
+          //   date: "",
+          // },
+          {
+            header: "",
+            paragraph: "Participated in the Xposure-23 training program at S&R Consultants, acquiring a diverse skill set in structural design and project management. Key achievements and skills gained include: Proficiency in preparing beam-column layouts and modeling and analyzing structures using ETABS. Competence in real project estimation using Estimax Pro, ensuring precise cost assessments and effective budgeting. Expertise in preparing Bar Bending Schedules using Aadspro, facilitating streamlined construction planning and execution. Practice in optimizing rebar consumption at construction sites through the use of Optimax, aiming to minimize wastage while ensuring structural integrity. These acquired skills collectively enable me to contribute effectively to the success of construction projects by ensuring sound design, cost efficiency, and optimal resource utilization.",
+            date: "",
+           },
+           
+        ],
+      },    {
     title: "Traffic survey",
     position: "KSCSTE-NATPAC internship",
     icon:civilenggImage,
@@ -184,50 +254,9 @@ const Fday = [
        
     ],
   },
-  {
-    title: "INTERN",
-    position: "KIIDC internship",
-    icon:civilenggImage,
-    //  fee: "fui",
-    iconBg: "#383E56",
-    years: "MAY 2023 - 5 DAYS",
-    
-   
-    points: [
-      // {
-      //   header: "",
-      //   paragraph: "",
-      //   date: "",
-      // },
-      {
-        header: "",
-        paragraph: "During my internship at KIIDC, I gained valuable hands-on experience in civil engineering and project management. I actively participated in various projects, applying my academic knowledge to real-world scenarios and developing practical skills in construction techniques, quality control, and project coordination. I collaborated with a diverse team of professionals, strengthening my communication and teamwork abilities. Through overcoming challenges and navigating unexpected obstacles, I honed my problem-solving and adaptability skills. This internship enhanced my understanding of professional ethics, safety protocols, and industry standards. Overall, my internship at KIIDC has been a rewarding experience that has equipped me with the necessary skills and knowledge to thrive as a civil engineer.",
-        date: "",
-       },],
-      },
+ 
 
-  // {
-  //   title: "NAME",
-  //   position: ".....",
-  //    fee: "YEAR",
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   ],
-  // },{
-  //   title: "NAME",
-  //   position: ".....",
-  //    fee: "YEAR",
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  //     // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     // "Implementing responsive design and ensuring cross-browser compatibility.",
-      
-  //   ],
-  // },
+ 
  
 ];
 const Sday = [
@@ -237,8 +266,8 @@ const Sday = [
     //  fee: "YEAR",
     iconBg: "#383E56",
     icon:civilenggImage,
-    date: "2020 - present",
-    points: ["Currently pursuing a Bachelor of Technology degree in Civil Engineering from STM"
+    date: "2020 - 2024",
+    points: ["Placement cell - Coordinator.","  NSS 512 - Volunteer."," Tech Fest - Coordinator.","  VBLAZE - Developer."
      ],
   },
   {

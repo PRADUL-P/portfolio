@@ -44,6 +44,14 @@ const Skill = ({ skillName, skillValue, color }) => {
 
 const SkillsList = () => {
   const skills = [
+    
+    { name: 'AutoCAD', value: 80, color: '#f2a900' },
+    { name: 'Revit', value: 70, color: '#8c8c8c' },
+    { name: 'Twinmotion', value: 65, color: '#0095d5' },
+    { name: 'STAAD', value: 60, color: '#fd8c00' },
+    { name: 'Enscape', value: 50, color: '#00a89d' },
+    { name: 'Microsoft Office', value: 85, color: '#f24e1e' },
+    { name: 'Etabs', value: 70, color: 'bg-green-500' },
     { name: 'HTML', value: 90, color: '#f16529' },
     { name: 'CSS', value: 80, color: '#2965f1' },
     { name: 'JavaScript', value: 75, color: '#f0db4f' },
@@ -52,12 +60,6 @@ const SkillsList = () => {
     { name: 'MongoDB', value: 60, color: '#13aa52' },
     { name: 'C', value: 50, color: '#a8b9cc' },
     { name: 'Python', value: 45, color: '#3776ab' },
-    { name: 'AutoCAD', value: 80, color: '#f2a900' },
-    { name: 'Revit', value: 70, color: '#8c8c8c' },
-    { name: 'Twinmotion', value: 65, color: '#0095d5' },
-    { name: 'STAAD', value: 60, color: '#fd8c00' },
-    { name: 'Enscape', value: 50, color: '#00a89d' },
-    { name: 'Figma', value: 85, color: '#f24e1e' },
   ];
 
   return (
